@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <script>
+            function onclickCatBtn() {
+                fetch("http://localhost:8000/cat", { method: "GET" })
+                    .then(response => response.json())
+                    .then(data => alert(data.message));
+            }
+            function onclickDogBtn() {
+                fetch('http://localhost:8000/dog', { method: "GET" })
+                    .then(response => response.json())
+                    .then(data => alert(data.message));
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Cat or Dog?</h1>
+        <button id="catBtn" onclick="onclickCatBtn()">cat</button>
+        <button id="dogBtn" onclick="onclickDogBtn()">dog</button>
+        <div id="displayDiv"></div>
+    </body>
+</html>

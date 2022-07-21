@@ -1,15 +1,13 @@
 # Prerequisites
 
-1. Download and install Node.js here:
+1. Download and install **Node.js** (Note: use the LTS (latest stable)):
 
 https://nodejs.dev/download/
 
-Note: use the LTS (latest stable version)
-
-2. Download and install (VSCode here)
+2. Download and install **VSCode** here:
 
 https://code.visualstudio.com/
 
-3. Download and install (git Windows here)
+3. Download and install **git Windows** here:
 
 https://gitforwindows.org/

@@ -6,10 +6,10 @@ const host = "localhost";
 const port = process.env.PORT || 8000;
 
 // business logic: stage 1
-// const requestListener = (req, res) => {
-//     res.writeHead(200);
-//     res.end(`Hello from our first server :) Are you looking for ${req.url}?`);
-// };
+const requestListener = (req, res) => {
+    res.writeHead(200);
+    res.end(`Hello from our first server :) Are you looking for ${req.url}?`);
+};
 
 // business logic: stage 2 & 3
 /*

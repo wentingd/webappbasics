@@ -1,0 +1,20 @@
+{
+  "name": "webappbasics",
+  "version": "1.0.0",
+  "description": "1. Download and install **git Windows** here:",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wentingd/webappbasics.git"
+  },
+  "author": "wentingd",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wentingd/webappbasics/issues"
+  },
+  "homepage": "https://github.com/wentingd/webappbasics#readme"
+}
